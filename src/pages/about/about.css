@@ -1,0 +1,107 @@
+
+.card-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.cardForProfile {
+  display: flex;
+  justify-content: center;
+  cursor: default;
+  padding: 10px;
+  height: auto;
+  border-radius: 25px;
+  align-items: center;
+  padding: 57px;
+  
+  
+
+}
+.cardForProfile:hover{
+  
+}
+.profile-detail{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.description {
+  display: flex;
+  padding-left: 20px;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
+
+  
+}
+#name {
+  
+  font-size: 27px;
+  font-weight: bold;
+  font-family: Verdana;
+}
+#NIM {
+  
+  font-family: monospace;
+  font-weight: 500;
+  font-size: 25px;
+  margin-top: 5px;
+}
+#kelompok {
+  
+  font-family: monospace;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 5px;
+}
+#gambar {
+  height: 450px;
+  
+  border-radius: 10%;
+  
+}
+#desc{
+  font-family: monospace;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 5px;
+}
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+
+.link{
+    display: flex;
+    width: 80rem;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.link-button{
+    padding: 10px;
+}
+
+
+
+.github:hover{
+    background-color: purple;
+}
+
+.linkedin:hover{
+    background-color: #0A66C2;
+}
