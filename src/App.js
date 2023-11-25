@@ -4,6 +4,8 @@ import Header from './components/header/Header';
 import Home from './pages/home/home';
 import MovieList from './components/movieList/movieList';
 import Movie from './pages/movieDetail/movie';
+import TvList from './components/tvList/tvList';
+
 import About from './pages/about/about';
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
                 <Route index element={<Home />}></Route>
                 <Route path="movie/:id" element={<Movie />}></Route>
                 <Route path="movies/:type" element={<MovieList />}></Route>
+                
+                <Route path="tv/:type" element={<TvList />}></Route>
                 <Route path="about" element={<About />}></Route>
                 <Route path="/*" element={<h1>Halaman Tidak ada</h1>}></Route>
             </Routes>

@@ -15,6 +15,7 @@ const Header = () => {
                 <Link to="/movies/popular" style={{textDecoration: "none"}}><span>Popular</span></Link>
                 <Link to="/movies/top_rated" style={{textDecoration: "none"}}><span>Top Rated</span></Link>
                 <Link to="/movies/upcoming" style={{textDecoration: "none"}}><span>Upcoming</span></Link>
+                <Link to="/tv/top_rated" style={{textDecoration: "none"}}><span>Tv Top Rated</span></Link>
 
             </div>
                 <div className="about">
